@@ -1,1 +1,94 @@
-body {background-color: blanchedalmond;}
+footer{
+    text-align: center;
+}
+#title{
+    text-align: center;
+}
+#nav{
+    display: flex;
+    
+}
+li{
+    padding: .5rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    justify-content: center;
+    background-color: #fff;
+    padding: 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+    font-family: "Lobster", cursive;
+    color: #1c146a;
+  }
+
+  .navbar-nav {
+    font-size: 1.2rem;
+    font-family: "Tiro Telugu", sans-serif;
+    margin-right: auto;
+  }
+
+  .nav-link {
+    color: #5c5c5c;
+    margin: 0 1rem;
+  }
+
+  .nav-link:hover {
+    color: rgb(237, 17, 17);
+  }
+
+  /* Style for the main section */
+  .bg-dark {
+    background-color: #dc0d0d;
+  }
+
+  .container {
+    padding: 3rem 0;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-family: "Lobster", cursive;
+    margin: 0;
+    padding: 2rem 0;
+  }
+
+  /* Style for the carousel */
+  .carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  /* Style for the footer */
+  .bg-dark {
+    background-color: #3c3c3c;
+  }
+
+  .text-white {
+    color: #fff;
+  }
+
+  #footerVacation {
+    font-size: 2rem;
+    font-family: "Lobster", cursive;
+    margin: 0;
+  }
+
+  #footerContact {
+    font-size: 1.2rem;
+    font-family: "Tiro Telugu", sans-serif;
+  }
+
+  .fa-solid {
+    color: #fff;
+    margin: 0 1rem;
+  }
+
+  .fa-solid:hover {
+    color: #dcdcdc;
+  }

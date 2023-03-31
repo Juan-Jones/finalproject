@@ -25,7 +25,7 @@
   <body class="bg-light">
     <section class="bg-dark text-white">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">Paper Planes</a>
+        <a class="navbar-brand" href="index.html">Paper Planes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,23 +44,26 @@
       <div class="container text-center">
         <h1 class="pb-3">Contact</h1>
       </div>
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" method="POST" data-netlify="true" class="p-10 justify-content-center">
         <input type="hidden" name="contact" value="contact">
 
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Name (First, Last)</label>
-          <input type="text" class="form-control" name="name" id="exampleFormControlInput1" placeholder="John Doe">
+        <div class="mb-3 d-flex justify-content-center row">
+          <label for="exampleFormControlInput1" class="col text-end form-label justify-content-center">Name (First, Last)</label>
+          <input type="text" class="col justify-content-center w-10" name="name" id="exampleFormControlInput1" placeholder="John Doe">
         </div>
-        <div class="mb-3">
+
+        <div class="mb-3 d-flex justify-content-center">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" name="email address" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          <input type="email" class="" name="email address" id="exampleInputEmail1" aria-describedby="emailHelp">
+     
         </div>
-        <div class="mb-3">
+        <div class="mb-3 d-flex justify-content-center">
           <label for="exampleFormControlTextarea1" class="form-label">How can we help you?</label>
-          <textarea class="form-control" name="description" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea name="description" id="exampleFormControlTextarea1" class="" rows="3"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-primary d-flex justify-content-center">Submit</button>
+        </div>
       </form>
     <footer class="bg-dark text-white p-4">
       <div class="container">
